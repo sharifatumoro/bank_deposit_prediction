@@ -16,7 +16,7 @@ st.set_page_config(
 # ---------------------------------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load(r"C:\Users\name\Desktop\BIG FOLDER\PROJECTS\My_Projects\bank_deposit_prediction\model\tuned_random_forest_pipeline.pkl")
+    return joblib.load(r"C:\Users\name\Desktop\BIG FOLDER\PROJECTS\My_Projects\bank_deposit_prediction\model\tuned__rf.pkl")
 model = load_model()
 
 # ---------------------------------------------------
